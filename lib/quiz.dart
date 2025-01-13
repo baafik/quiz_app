@@ -50,10 +50,6 @@ class _QuizState extends State<Quiz> {
       );
     }
      if (_activeScreen == 'results-screen') {
-      screenWidget = ResultsScreen(
-        chosenAnswers: _selectedAnswers,
-        onRestart: restartQuiz,
-      );
     }
 
     return MaterialApp(
